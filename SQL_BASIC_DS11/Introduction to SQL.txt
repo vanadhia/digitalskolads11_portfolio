@@ -1,0 +1,30 @@
+Introduction to SQL 
+1. Why SQL ? Why it’s important?
+
+- Bahasa pemograman paling banyak digunakan setelah Python.
+- Hampir semuanya disimpan dalam database.
+- Our PII (Personally Identified Information) [Seperti cth nama, no. hp, dll].
+- Behavior dalam website disimpan dalam databases.
+- Riwayat transaksi yang tersimpan dalam e-commerce.
+- Chat, posts, aktivitas di socmed tersimpan di databases.
+
+2. DATABASE --> SCHEMA --> TABLES
+
+3. Schema 
+Bertujuan menjadi “folder” yang lebih spesifik.
+
+Tips:
+- Jika ingin mendesain harus tentukan mau pakai camelCase atau snake_case. 
+Snake_case = customer_details
+camelCase = “customerDetails”
+
+- Jangan buat multiple version. 
+
+3. Functions 
+INSERT INTO: Menambah baris.
+ALTER TABLE: Mengubah, menambah, delete kolom.
+DELETE: menghapus row.
+TRUNCATE: menghapus keseluruhan isi table.
+DROP: menghapus table.
+
+*hati2 saat delete atau alter, kita tidak bisa meng-undo.

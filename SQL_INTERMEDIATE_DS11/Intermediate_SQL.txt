@@ -1,0 +1,13 @@
+1. General Function in SQL 
+SQL memiliki kewajiban format yang  harus diikuti. Jika salah format dan/atau maka akan menyebabkan kesalahan saat kita menjalankannya.
+
+
+
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition (s)
+GROUP BY field_name (s)
+HAVING condition (s)
+ORDER BY field_name (s)
+LIMIT number
